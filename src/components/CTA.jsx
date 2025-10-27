@@ -1,10 +1,10 @@
 export default function CTA() {
   return (
     <div className="relative isolate overflow-hidden bg-white">
-      <div className="px-6 py-24 sm:py-32 lg:px-8">
+      <div className="px-6 pt-12 sm:pt-16 pb-24 sm:pb-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-4xl font-semibold tracking-tight text-balance sm:text-5xl" style={{ color: '#582e89' }}>
-            Agende uma consulta com especialista
+            Agende um Atendimento
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600">
             Oferecemos atendimento personalizado em fisioterapia neonatal e pediátrica,

@@ -28,7 +28,7 @@ export default function Locations() {
   ]
 
   return (
-    <div className="bg-white py-24 sm:py-32" id="locais">
+    <div className="bg-white pt-12 sm:pt-16 pb-12 sm:pb-16" id="locais">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl divide-y divide-gray-100 lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-1 gap-10 py-8 lg:grid-cols-3">
@@ -39,6 +39,9 @@ export default function Locations() {
               <p className="mt-4 text-base/7 text-gray-600">
                 Atendemos em consultórios parceiros nas principais regiões de São Paulo e também
                 oferecemos atendimento domiciliar com toda a estrutura necessária.
+              </p>
+              <p className="mt-3 text-sm/6 text-gray-600">
+                <strong>Horários:</strong> Segunda a Sexta 14h-19h • Sábados e Domingos 7h-19h
               </p>
             </div>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">

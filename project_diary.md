@@ -379,5 +379,37 @@ npm run lint:fix   # Auto-corrigir problemas do ESLint
 
 ---
 
+### [2025-10-27] - Image Updates, Service Description Improvements & Spacing Adjustments
+
+**Visual Improvements:**
+- ✅ Updated Service 3 (Assimetria Craniana) image to use `/Services/Service 3.jpg` (cranial asymmetry treatment)
+- ✅ Updated Service 9 (Mentoria Quero Ser Fisio Ped) image to use `/Services/Service 9.jpg` (educational mentoring)
+- ✅ Both images sourced from actual service photos for more authentic representation
+
+**Content Enhancements:**
+- ✅ Updated Service 9 description to highlight its official program status
+- ✅ Now clearly states: "Programa oficial da FisioKids do Hospital Infantil Sabará"
+- ✅ Emphasizes the credibility and institutional backing of the mentoring program
+
+**Layout Optimizations:**
+- ✅ Added WhatsApp CTA button immediately after Services section
+- ✅ Strategic placement to capture user interest while browsing services
+- ✅ Reduced spacing between Services and Locations sections by 50%
+  - Changed from `py-24` to `py-12` (reduced from 96px to 48px)
+- ✅ Reduced spacing between Locations and CTA sections by 50%
+  - Changed from `py-24` to `py-12` (reduced from 96px to 48px)
+- ✅ Improved visual flow and reduced scrolling distance
+- ✅ Better balance between whitespace and content density
+
+**User Experience Impact:**
+- More efficient page layout with reduced dead space
+- Faster navigation to key information
+- Additional conversion opportunity with mid-page CTA
+- More professional service imagery reflecting actual offerings
+
+**Status**: All improvements implemented and tested. Ready for production deployment.
+
+---
+
 **Última Atualização**: 2025-10-27
-**Próxima Revisão**: Após deploy no Vercel
+**Próxima Revisão**: Após configuração do domínio customizado babybubblesfisio.com

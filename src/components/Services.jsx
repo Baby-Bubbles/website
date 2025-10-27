@@ -11,7 +11,7 @@ const services = [
     benefit: 'Garante o desenvolvimento saudável do bebê',
     duration: '40-60 minutos',
     locations: ['Domiciliar', 'Consultório'],
-    imageUrl: '/Pics/jorge-fernandez-salas-ftGRalfMHD0-unsplash.jpg',
+    imageUrl: '/Services/Avaliacao do Bebe2.jpg',
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const services = [
     benefit: 'Acompanhamento contínuo com estratégias específicas para alcançar marcos do desenvolvimento',
     duration: '40-60 minutos',
     locations: ['Domiciliar', 'Consultório'],
-    imageUrl: '/Pics/melinda-martin-zYeIxH9k5CI-unsplash.jpg',
+    imageUrl: '/Services/Atraso de Desenvolvimento.jpg',
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const services = [
     benefit: 'Tratamento precoce previne complicações futuras, garante desenvolvimento saudável e a maioria dos bebês apresenta recuperação completa',
     duration: '40-60 minutos',
     locations: ['Domiciliar', 'Consultório'],
-    imageUrl: '/Pics/oksana-zub-dT060PALhSA-unsplash.jpg',
+    imageUrl: '/Services/Asssimetria Craniana e Torcicolo Cong4.png',
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const services = [
     benefit: 'Alívio imediato de sintomas respiratórios',
     duration: '40-60 minutos',
     locations: ['Domiciliar', 'Consultório'],
-    imageUrl: '/Pics/trung-nhan-tran-6GM13MQWTgM-unsplash.jpg',
+    imageUrl: '/Services/Fisioterapia Respiratoria.jpg',
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const services = [
     benefit: 'Redução do risco de infecções, melhor oxigenação, maior capacidade respiratória, facilitação da remoção de secreções',
     duration: '40-60 minutos',
     locations: ['Domiciliar', 'Consultório'],
-    imageUrl: '/Pics/pieter-Qa8Y_W4PORw-unsplash.jpg',
+    imageUrl: '/Services/giu-vicente-Ng2n54lAKcs-unsplash.jpg',
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ const services = [
     benefit: 'Promove reexpansão pulmonar, reduz esforço respiratório, melhora oxigenação e previne complicações',
     duration: '40-60 minutos',
     locations: ['Domiciliar', 'Consultório'],
-    imageUrl: '/Pics/john-V3IixUD-ewQ-unsplash.jpg',
+    imageUrl: '/Services/BIPAP Tratamento.jpg',
   },
   {
     id: 7,
@@ -71,7 +71,7 @@ const services = [
     benefit: 'Capacita os pais a cuidar melhor da saúde respiratória dos filhos e procurar ajuda adequada rapidamente',
     duration: 'A combinar',
     locations: ['A combinar'],
-    imageUrl: '/Pics/jeremiah-stewart-DJbVAIvsXEc-unsplash.jpg',
+    imageUrl: '/Services/Treinamento para escolas e creches.jpg',
   },
   {
     id: 8,
@@ -81,17 +81,17 @@ const services = [
     benefit: 'Garante que profissionais estejam preparados para oferecer cuidados de alta qualidade e segurança',
     duration: 'A combinar',
     locations: ['Domiciliar'],
-    imageUrl: '/Pics/toa-heftiba-sHBN7q5Yppw-unsplash.jpg',
+    imageUrl: '/Services/Home Care.jpg',
   },
   {
     id: 9,
     title: 'Mentoria Quero Ser Fisio Ped',
-    shortDescription: 'Programa de mentoria para fisioterapeutas que desejam iniciar ou aprimorar sua carreira em fisioterapia pediátrica com expert guidance.',
+    shortDescription: 'Programa oficial da FisioKids, braço de fisioterapia do Hospital Infantil Sabará, para fisioterapeutas que desejam iniciar ou aprimorar sua carreira em fisioterapia pediátrica.',
     fullDescription: 'Programa completo de mentoria com 13 temas teóricos escolhidos com base nas maiores dificuldades e dúvidas dos nossos alunos, para entregar maior conhecimento e expertise para iniciar sua carreira na fisioterapia pediátrica.\n\nTemas abordados:\n1. Saindo da Faculdade: Primeiros Passos\n2. Importância de estágios e voluntariado em hospitais pediátricos\n3. Escolhendo a Pós-Graduação Ideal\n4. Ingressando em um Hospital de Referência\n5. Como se destacar em processos seletivos\n6. Networking e construção de relacionamentos profissionais\n7. Desenvolvimento de Competências\n8. Comunicação com crianças e pais\n9. Abordagens terapêuticas e intervenções eficazes\n10. Tendências e Inovações na Fisioterapia Pediátrica\n11. Novas tecnologias e metodologias\n12. O futuro da fisioterapia pediátrica\n13. Hospital, consultório ou domiciliar?\n\nCom 15 anos de experiência na gestão e treinamento da Equipe de Fisioterapia do Hospital Infantil Sabará e do Espaço Fisiokids em SP, treinando mais de 300 profissionais por ano. Além disso, você pode escolher realizar a nossa visita observacional ao Espaço Fisiokids e Hospital.',
     benefit: 'Inicie ou acelere sua carreira em fisioterapia pediátrica com orientação especializada, baseada em 15 anos de experiência prática em hospitais de referência',
     duration: 'A combinar',
     locations: ['Online', 'Presencial'],
-    imageUrl: '/fran_profile_pic.png',
+    imageUrl: '/Services/Quero ser fisio Ped3.png',
   },
 ]
 
@@ -99,7 +99,7 @@ export default function Services() {
   const [selectedService, setSelectedService] = useState(null)
 
   return (
-    <div className="bg-gradient-to-br from-primary-50 to-secondary-50 py-24 sm:py-32" id="servicos">
+    <div className="bg-gradient-to-br from-primary-50 to-secondary-50 pt-24 sm:pt-32 pb-12 sm:pb-16" id="servicos">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Section Header */}
         <div className="mx-auto max-w-2xl text-center">
@@ -182,6 +182,19 @@ export default function Services() {
               </div>
             </article>
           ))}
+        </div>
+
+        {/* CTA Button */}
+        <div className="mx-auto mt-16 text-center">
+          <a
+            href="https://wa.me/+5511942403507"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ backgroundImage: 'linear-gradient(to right, #6df2f2, #c53bff)' }}
+            className="inline-block rounded-md px-6 py-3 text-base font-semibold text-white shadow-sm hover:opacity-90 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+          >
+            Agendar Atendimento via WhatsApp
+          </a>
         </div>
       </div>
 

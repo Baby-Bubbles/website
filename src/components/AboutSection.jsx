@@ -3,7 +3,7 @@ export default function AboutSection() {
     <div id="sobre" className="bg-white pt-24 pb-16 sm:pt-32 sm:pb-24 xl:pb-32">
       <div className="pb-20 sm:pb-24 xl:pb-0" style={{ background: '#582e89' }}>
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
-          <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
+          <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-[30rem] xl:flex-none">
             <div className="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
               <img
                 alt="Francielly Buriti - Fisioterapeuta Neonatal e Pediátrica"
@@ -12,7 +12,7 @@ export default function AboutSection() {
               />
             </div>
           </div>
-          <div className="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:px-16 xl:py-24">
+          <div className="w-full max-w-xl xl:max-w-none xl:flex-auto xl:px-12 xl:py-24">
             <figure className="relative isolate pt-6 sm:pt-12">
               <svg
                 fill="none"
@@ -27,7 +27,7 @@ export default function AboutSection() {
                 />
                 <use x={86} href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" />
               </svg>
-              <blockquote className="text-xl/8 font-semibold text-white sm:text-2xl/9">
+              <blockquote className="text-lg/7 font-semibold text-white sm:text-xl/8">
                 <p>
                   Sou fisioterapeuta graduada pela PUC Campinas, com especialização em fisioterapia pediátrica e
                   reabilitação aplicada à neurologia infantil pela Universidade Estadual de Campinas (Unicamp).
