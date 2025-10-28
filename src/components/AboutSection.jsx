@@ -1,14 +1,21 @@
 export default function AboutSection() {
   return (
-    <div id="sobre" className="bg-white pt-24 pb-16 sm:pt-32 sm:pb-24 xl:pb-32">
+    <div id="sobre" className="bg-white pt-12 pb-16 sm:pt-16 sm:pb-24 xl:pb-32">
       <div className="pb-20 sm:pb-24 xl:pb-0" style={{ background: '#582e89' }}>
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
           <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-[30rem] xl:flex-none">
             <div className="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
+              {/* Mobile image */}
               <img
                 alt="Francielly Buriti - Fisioterapeuta Neonatal e Pediátrica"
-                src="/fran_profile_pic.png"
-                className="absolute inset-0 size-full rounded-2xl object-cover shadow-2xl ring-1 ring-white/15"
+                src="/About_profile_pic_mobile.jpg"
+                className="absolute inset-0 size-full rounded-2xl object-cover shadow-2xl ring-1 ring-white/15 md:hidden"
+              />
+              {/* Desktop image */}
+              <img
+                alt="Francielly Buriti - Fisioterapeuta Neonatal e Pediátrica"
+                src="/About_profile_pic_desktop.jpg"
+                className="absolute inset-0 size-full rounded-2xl object-cover shadow-2xl ring-1 ring-white/15 hidden md:block"
               />
             </div>
           </div>

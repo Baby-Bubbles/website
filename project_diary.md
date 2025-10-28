@@ -411,5 +411,62 @@ npm run lint:fix   # Auto-corrigir problemas do ESLint
 
 ---
 
-**Última Atualização**: 2025-10-27
+### [2025-10-28] - Mobile Optimizations & Responsive Improvements
+
+**Mobile-First Enhancements - Hero Section:**
+- ✅ Optimized Hero title typography for mobile devices
+  - Mobile (default): `text-4xl` for better readability on small screens
+  - Small devices: `sm:text-6xl` for tablets
+  - Large devices: `lg:text-7xl` for desktop displays
+- ✅ Updated Hero headline copy for better flow
+  - Changed from "desenvolvimento do seu bebê" to "desenvolvimento do seu pequeno"
+  - More affectionate and personalized language that resonates with parents
+- ✅ Removed grey gridline SVG pattern from Hero background
+  - Cleaner, more modern aesthetic
+  - Better performance without complex SVG overlay
+  - Improved visual clarity for primary content
+- ✅ Improved CTA button layout responsiveness
+  - Mobile: Vertical stack (`flex-col`) with full-width buttons for easy tapping
+  - Tablet/Desktop: Horizontal layout (`sm:flex-row`) with side-by-side buttons
+  - Better touch targets on mobile devices (mobile-first principle)
+
+**About Section Responsive Images:**
+- ✅ Implemented responsive image strategy using HTML picture element
+  - Mobile: `/About_profile_pic_mobile.jpg` (portrait orientation, optimized for vertical screens)
+  - Desktop: `/About_profile_pic_desktop.jpg` (landscape orientation, optimized for wide screens)
+  - Breakpoint: 768px (Tailwind's `md:` breakpoint)
+  - Art direction approach: different crops for different devices, not just scaling
+- ✅ Added new profile images to `/public` directory
+  - `About_profile_pic_mobile.jpg` - portrait-oriented for mobile
+  - `About_profile_pic_desktop.jpg` - landscape-oriented for desktop
+
+**Spacing and Layout Optimization:**
+- ✅ Reduced gap between Hero and About sections by 50%
+  - Hero section: Changed bottom padding from `pb-24` to `pb-12` (96px → 48px)
+  - About section: Changed top padding from `pt-24` to `pt-12` (96px → 48px)
+  - Total reduction: 96px of whitespace removed
+  - Faster transition to key content, better visual flow
+- ✅ Previously optimized spacing (from 2025-10-27):
+  - Services to Locations: Reduced from `py-24` to `py-12`
+  - Locations to CTA: Reduced from `py-24` to `py-12`
+
+**User Experience Impact:**
+- Mobile users see appropriately sized text that doesn't overwhelm small screens
+- Responsive images ensure optimal viewing experience across all devices
+- Reduced scrolling distance to reach important content (About section)
+- Better touch interactions with full-width mobile buttons
+- Cleaner hero design without distracting background patterns
+- More natural, warm language in hero headline
+
+**Technical Details:**
+- Files modified: `src/components/HeroWithNavbar.jsx`, `src/components/AboutSection.jsx`
+- New assets: 2 new responsive profile images
+- All changes maintain mobile-first development principles
+- Tested across mobile, tablet, and desktop breakpoints
+
+**Status**: Mobile optimizations complete. Ready for production deployment.
+
+---
+
+**Última Atualização**: 2025-10-28
 **Próxima Revisão**: Após configuração do domínio customizado babybubblesfisio.com
