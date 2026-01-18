@@ -130,8 +130,7 @@ export default function HeroWithNavbar() {
                     Cuidado especializado para o desenvolvimento do seu pequeno
                   </h1>
                   <p className="mt-6 text-base font-medium text-pretty text-gray-600 sm:mt-8 sm:max-w-md sm:text-xl/8 lg:max-w-none">
-                    Fisioterapia neonatal e pediátrica com profissional experiente em UTI Neonatal.
-                    Atendimento domiciliar e em consultório em São Paulo.
+                    Fisioterapeuta especialista em Pediatria, com atendimentos domiciliares, em consultório e online, em São Paulo.
                   </p>
                   <div className="mt-8 flex flex-col items-start gap-y-4 sm:mt-10 sm:flex-row sm:items-center sm:gap-x-6 sm:gap-y-0">
                     <a

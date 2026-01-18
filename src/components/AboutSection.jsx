@@ -36,12 +36,16 @@ export default function AboutSection() {
               </svg>
               <blockquote className="text-lg/7 font-semibold text-white sm:text-xl/8">
                 <p>
-                  Sou fisioterapeuta graduada pela PUC Campinas, com especialização em fisioterapia pediátrica e
-                  reabilitação aplicada à neurologia infantil pela Universidade Estadual de Campinas (Unicamp).
-                  Atualmente, atuo como supervisora de fisioterapia no Hospital Infantil Sabará e tenho experiência
-                  na UTI Neonatal da Maternidade Santa Joana. Minha missão é proporcionar cuidados especializados
-                  que promovam o desenvolvimento saudável de cada bebê e criança, trabalhando em parceria com as
-                  famílias para alcançar os melhores resultados.
+                  Sou fisioterapeuta graduada pela PUC-Campinas, com especialização em Fisioterapia Pediátrica e
+                  Reabilitação Aplicada à Neurologia Infantil pela Universidade Estadual de Campinas (Unicamp).
+                  Atualmente, atuo como supervisora de fisioterapia no Hospital Infantil Sabará, além de atender
+                  na clínica FisioKids e em outros consultórios parceiros. Também possuo experiência em instituições
+                  de referência como a Maternidade Santa Joana e o Hospital Santa Catarina.
+                </p>
+                <p className="mt-4">
+                  Minha missão é oferecer cuidados especializados e humanizados, promovendo o desenvolvimento
+                  saudável de bebês e crianças, sempre em parceria com as famílias para alcançar os melhores
+                  resultados.
                 </p>
               </blockquote>
               <figcaption className="mt-8 text-base">
