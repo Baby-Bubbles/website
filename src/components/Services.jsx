@@ -11,7 +11,7 @@ const services = [
     benefit: 'Garante o desenvolvimento saudável do bebê',
     duration: '40-60 minutos',
     locations: ['Domiciliar', 'Consultório'],
-    imageUrl: '/Services/Avaliacao do Bebe2.jpg',
+    imageUrl: '/images/services/01-avaliacao-bebes.png',
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const services = [
     benefit: 'Acompanhamento contínuo com estratégias específicas para alcançar marcos do desenvolvimento',
     duration: '40-60 minutos',
     locations: ['Domiciliar', 'Consultório'],
-    imageUrl: '/Services/Atraso de Desenvolvimento.jpg',
+    imageUrl: '/images/services/02-atraso-desenvolvimento.png',
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const services = [
     benefit: 'Tratamento precoce previne complicações futuras, garante desenvolvimento saudável e a maioria dos bebês apresenta recuperação completa',
     duration: '40-60 minutos',
     locations: ['Domiciliar', 'Consultório'],
-    imageUrl: '/Services/Asssimetria Craniana e Torcicolo Cong4.png',
+    imageUrl: '/images/services/03-assimetria-craniana.png',
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const services = [
     benefit: 'Alívio imediato de sintomas respiratórios',
     duration: '40-60 minutos',
     locations: ['Domiciliar', 'Consultório'],
-    imageUrl: '/Services/Fisioterapia Respiratoria.jpg',
+    imageUrl: '/images/services/04-fisioterapia-respiratoria.png',
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const services = [
     benefit: 'Redução do risco de infecções, melhor oxigenação, maior capacidade respiratória, facilitação da remoção de secreções',
     duration: '40-60 minutos',
     locations: ['Domiciliar', 'Consultório'],
-    imageUrl: '/Services/giu-vicente-Ng2n54lAKcs-unsplash.jpg',
+    imageUrl: '/images/services/05-traqueostomia.png',
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ const services = [
     benefit: 'Promove reexpansão pulmonar, reduz esforço respiratório, melhora oxigenação e previne complicações',
     duration: '40-60 minutos',
     locations: ['Domiciliar', 'Consultório'],
-    imageUrl: '/Services/BIPAP Tratamento.jpg',
+    imageUrl: '/images/services/06-bipap.png',
   },
   {
     id: 7,
@@ -71,7 +71,7 @@ const services = [
     benefit: 'Capacita os pais a cuidar melhor da saúde respiratória dos filhos e procurar ajuda adequada rapidamente',
     duration: 'A combinar',
     locations: ['A combinar'],
-    imageUrl: '/Services/Treinamento para escolas e creches.jpg',
+    imageUrl: '/images/services/07-mentorias-pais.png',
   },
   {
     id: 8,
@@ -81,7 +81,7 @@ const services = [
     benefit: 'Garante que profissionais estejam preparados para oferecer cuidados de alta qualidade e segurança',
     duration: 'A combinar',
     locations: ['Domiciliar'],
-    imageUrl: '/Services/Home Care.jpg',
+    imageUrl: '/images/services/08-home-care.png',
   },
   {
     id: 9,
@@ -91,7 +91,7 @@ const services = [
     benefit: 'Inicie ou acelere sua carreira em fisioterapia pediátrica com orientação especializada, baseada em 15 anos de experiência prática em hospitais de referência',
     duration: 'A combinar',
     locations: ['Online', 'Presencial'],
-    imageUrl: '/Services/Quero ser fisio Ped3.png',
+    imageUrl: '/images/services/09-mentoria-fisio-ped.png',
   },
 ]
 

@@ -21,7 +21,7 @@ export default function HeroWithNavbar() {
               <span className="sr-only">Baby Bubbles Fisio</span>
               <img
                 alt="Baby Bubbles Fisio"
-                src="/Logos/Baby Bubbles_Assinatura Horizontal.png"
+                src="/images/logos/Baby Bubbles_Assinatura Horizontal.png"
                 className="h-12 w-auto"
               />
             </a>
@@ -63,7 +63,7 @@ export default function HeroWithNavbar() {
                 <span className="sr-only">Baby Bubbles Fisio</span>
                 <img
                   alt="Baby Bubbles Fisio"
-                  src="/Logos/Baby Bubbles_Assinatura Horizontal.png"
+                  src="/images/logos/Baby Bubbles_Assinatura Horizontal.png"
                   className="h-10 w-auto"
                 />
               </a>
@@ -153,7 +153,7 @@ export default function HeroWithNavbar() {
                     <div className="relative">
                       <img
                         alt="Bebê feliz durante fisioterapia"
-                        src="/Pics/jorge-fernandez-salas-ftGRalfMHD0-unsplash.jpg"
+                        src="/images/hero/jorge-fernandez-salas-ftGRalfMHD0-unsplash.jpg"
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -163,7 +163,7 @@ export default function HeroWithNavbar() {
                     <div className="relative">
                       <img
                         alt="Atendimento de fisioterapia infantil"
-                        src="/Pics/melinda-martin-zYeIxH9k5CI-unsplash.jpg"
+                        src="/images/hero/melinda-martin-zYeIxH9k5CI-unsplash.jpg"
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -171,7 +171,7 @@ export default function HeroWithNavbar() {
                     <div className="relative">
                       <img
                         alt="Cuidado especializado para bebês"
-                        src="/Pics/oksana-zub-dT060PALhSA-unsplash.jpg"
+                        src="/images/hero/oksana-zub-dT060PALhSA-unsplash.jpg"
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -181,7 +181,7 @@ export default function HeroWithNavbar() {
                     <div className="relative">
                       <img
                         alt="Desenvolvimento motor infantil"
-                        src="/Pics/toa-heftiba-sHBN7q5Yppw-unsplash.jpg"
+                        src="/images/hero/toa-heftiba-sHBN7q5Yppw-unsplash.jpg"
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -189,7 +189,7 @@ export default function HeroWithNavbar() {
                     <div className="relative">
                       <img
                         alt="Fisioterapia respiratória pediátrica"
-                        src="/Pics/trung-nhan-tran-6GM13MQWTgM-unsplash.jpg"
+                        src="/images/hero/trung-nhan-tran-6GM13MQWTgM-unsplash.jpg"
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
