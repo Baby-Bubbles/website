@@ -46,6 +46,7 @@ export default function AboutSection() {
               <figcaption className="mt-8 text-base">
                 <div className="font-semibold text-white">{about.name}</div>
                 <div className="mt-1" style={{ color: '#6df2f2' }}>{about.role}</div>
+                <div className="mt-1 text-sm text-white/80">{about.credential}</div>
               </figcaption>
             </figure>
           </div>

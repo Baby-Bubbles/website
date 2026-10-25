@@ -153,6 +153,15 @@ function jsonLd() {
         url: `${SITE_URL}/#sobre`,
         worksFor: [{ '@id': orgId }, { '@type': 'Hospital', name: about.worksFor }],
         alumniOf: about.alumniOf.map((name) => ({ '@type': 'CollegeOrUniversity', name })),
+        hasCredential: {
+          '@type': 'EducationalOccupationalCredential',
+          name: about.credential,
+          credentialCategory: 'Registro profissional',
+          recognizedBy: {
+            '@type': 'Organization',
+            name: 'CREFITO - Conselho Regional de Fisioterapia e Terapia Ocupacional',
+          },
+        },
         knowsAbout: [
           'Fisioterapia pediátrica',
           'Fisioterapia neonatal',
@@ -182,7 +191,9 @@ function llmsTxt() {
 
 > ${business.summaryEn}
 
-Site em português (pt-BR). Fisioterapeuta responsável: ${about.name} (${about.shortName}), ${about.role.toLowerCase()}, supervisora de fisioterapia no ${about.worksFor}. ${business.summary}
+${about.name} is a ${about.credentialEn}.
+
+Site em português (pt-BR). Fisioterapeuta responsável: ${about.name} (${about.shortName}), ${about.role.toLowerCase()} registrada no CREFITO, supervisora de fisioterapia no ${about.worksFor}. ${business.summary}
 
 ## Conteúdo completo
 
@@ -239,6 +250,7 @@ ${hero.subtitle}
 
 ${about.paragraphs.join('\n\n')}
 
+- Registro profissional: ${about.credential}
 - Formação: ${about.alumniOf.join('; ')}
 - Atuação atual: supervisora de fisioterapia no ${about.worksFor}
 

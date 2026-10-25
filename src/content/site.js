@@ -38,6 +38,8 @@ export const about = {
   name: 'Francielly Buriti',
   shortName: 'Fran Buriti',
   role: 'Fisioterapeuta Neonatal e Pediátrica',
+  credential: 'Fisioterapeuta registrada no CREFITO',
+  credentialEn: 'licensed physiotherapist registered with CREFITO, the Brazilian regional council of physiotherapy',
   paragraphs: [
     'Sou fisioterapeuta graduada pela PUC-Campinas, com especialização em Fisioterapia Pediátrica e Reabilitação Aplicada à Neurologia Infantil pela Universidade Estadual de Campinas (Unicamp). Atualmente, atuo como supervisora de fisioterapia no Hospital Infantil Sabará, além de atender na clínica FisioKids e em outros consultórios parceiros. Também possuo experiência em instituições de referência como a Maternidade Santa Joana e o Hospital Santa Catarina.',
     'Minha missão é oferecer cuidados especializados e humanizados, promovendo o desenvolvimento saudável de bebês e crianças, sempre em parceria com as famílias para alcançar os melhores resultados.',
