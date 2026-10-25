@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { hero, contact } from '../content/site'
 
 const navigation = [
   { name: 'Início', href: '#' },
@@ -45,7 +46,7 @@ export default function HeroWithNavbar() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a
-              href="https://wa.me/+5511942403507"
+              href={contact.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
               style={{ backgroundImage: 'linear-gradient(to right, #6df2f2, #c53bff)' }}
@@ -92,7 +93,7 @@ export default function HeroWithNavbar() {
                 </div>
                 <div className="py-6">
                   <a
-                    href="https://wa.me/+5511942403507"
+                    href={contact.whatsapp}
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => setMobileMenuOpen(false)}
@@ -127,14 +128,14 @@ export default function HeroWithNavbar() {
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <h1 className="text-4xl font-semibold tracking-tight text-pretty sm:text-6xl lg:text-7xl" style={{ color: '#582e89' }}>
-                    Cuidado especializado para o desenvolvimento do seu pequeno
+                    {hero.title}
                   </h1>
                   <p className="mt-6 text-base font-medium text-pretty text-gray-600 sm:mt-8 sm:max-w-md sm:text-xl/8 lg:max-w-none">
-                    Fisioterapeuta especialista em Pediatria, com atendimentos domiciliares, em consultório e online, em São Paulo.
+                    {hero.subtitle}
                   </p>
                   <div className="mt-8 flex flex-col items-start gap-y-4 sm:mt-10 sm:flex-row sm:items-center sm:gap-x-6 sm:gap-y-0">
                     <a
-                      href="https://wa.me/+5511942403507"
+                      href={contact.whatsapp}
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{ backgroundImage: 'linear-gradient(to right, #6df2f2, #c53bff)' }}

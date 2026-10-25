@@ -6,7 +6,7 @@
   "description": "Baby Bubbles - Website profissional desenvolvido com React, Vite e Tailwind CSS v4",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && vite build --ssr src/entry-server.jsx --outDir dist-server && node scripts/prerender.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "preview": "vite preview",

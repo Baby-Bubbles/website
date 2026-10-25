@@ -1,19 +1,19 @@
+import { cta, contact } from '../content/site'
+
 export default function CTA() {
   return (
     <div className="relative isolate overflow-hidden bg-white">
       <div className="px-6 pt-12 sm:pt-16 pb-24 sm:pb-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-4xl font-semibold tracking-tight text-balance sm:text-5xl" style={{ color: '#582e89' }}>
-            Agende um Atendimento
+            {cta.title}
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600">
-            Oferecemos atendimento personalizado em fisioterapia neonatal e pediátrica,
-            tanto em consultório quanto no conforto da sua casa. Entre em contato e descubra
-            como podemos ajudar no desenvolvimento saudável do seu bebê.
+            {cta.description}
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href="https://wa.me/+5511942403507"
+              href={contact.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
               style={{ backgroundImage: 'linear-gradient(to right, #6df2f2, #c53bff)' }}

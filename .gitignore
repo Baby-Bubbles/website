@@ -40,3 +40,6 @@ lerna-debug.log*
 
 # TypeScript
 *.tsbuildinfo
+
+# Prerender server bundle (deleted after build)
+/dist-server

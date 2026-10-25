@@ -1,32 +1,6 @@
-export default function Locations() {
-  const locations = [
-    {
-      name: 'FisioKids',
-      address: 'Rua Pará, 76, cj. 24',
-      city: 'Consolação - SP',
-    },
-    {
-      name: 'UpKids',
-      address: 'Rua Borges Lagoa, 971, cj. 51-52',
-      city: 'Vila Clementino - SP',
-    },
-    {
-      name: 'Clínica Berçar',
-      address: 'Rua Afonso de Freitas, 559, cj. 82',
-      city: 'Paraíso - SP',
-    },
-    {
-      name: 'Clínica Nascere',
-      address: 'Rua Helena, 140, cj 112',
-      city: 'Vila Olímpia - SP',
-    },
-    {
-      name: 'Atendimento Domiciliar',
-      address: 'Consultar regiões disponíveis',
-      city: '',
-    },
-  ]
+import { locations, locationsIntro, hours } from '../content/site'
 
+export default function Locations() {
   return (
     <div className="bg-white pt-12 sm:pt-16 pb-12 sm:pb-16" id="locais">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -34,14 +8,13 @@ export default function Locations() {
           <div className="grid grid-cols-1 gap-10 py-8 lg:grid-cols-3">
             <div>
               <h2 className="text-4xl font-semibold tracking-tight text-pretty" style={{ color: '#582e89' }}>
-                Onde Atendemos
+                {locationsIntro.title}
               </h2>
               <p className="mt-4 text-base/7 text-gray-600">
-                Atendemos em consultórios parceiros nas principais regiões de São Paulo e também
-                oferecemos atendimento domiciliar com toda a estrutura necessária.
+                {locationsIntro.description}
               </p>
               <p className="mt-3 text-sm/6 text-gray-600">
-                <strong>Horários:</strong> Segunda a Sexta 14h-19h • Sábados e Domingos 7h-19h
+                <strong>Horários:</strong> {hours.label}
               </p>
             </div>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">

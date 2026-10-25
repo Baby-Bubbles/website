@@ -1,3 +1,5 @@
+import { about } from '../content/site'
+
 export default function AboutSection() {
   return (
     <div id="sobre" className="bg-white pt-12 pb-16 sm:pt-16 sm:pb-24 xl:pb-32">
@@ -35,22 +37,15 @@ export default function AboutSection() {
                 <use x={86} href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" />
               </svg>
               <blockquote className="text-lg/7 font-semibold text-white sm:text-xl/8">
-                <p>
-                  Sou fisioterapeuta graduada pela PUC-Campinas, com especialização em Fisioterapia Pediátrica e
-                  Reabilitação Aplicada à Neurologia Infantil pela Universidade Estadual de Campinas (Unicamp).
-                  Atualmente, atuo como supervisora de fisioterapia no Hospital Infantil Sabará, além de atender
-                  na clínica FisioKids e em outros consultórios parceiros. Também possuo experiência em instituições
-                  de referência como a Maternidade Santa Joana e o Hospital Santa Catarina.
-                </p>
-                <p className="mt-4">
-                  Minha missão é oferecer cuidados especializados e humanizados, promovendo o desenvolvimento
-                  saudável de bebês e crianças, sempre em parceria com as famílias para alcançar os melhores
-                  resultados.
-                </p>
+                {about.paragraphs.map((paragraph, index) => (
+                  <p key={index} className={index > 0 ? 'mt-4' : undefined}>
+                    {paragraph}
+                  </p>
+                ))}
               </blockquote>
               <figcaption className="mt-8 text-base">
-                <div className="font-semibold text-white">Francielly Buriti</div>
-                <div className="mt-1" style={{ color: '#6df2f2' }}>Fisioterapeuta Neonatal e Pediátrica</div>
+                <div className="font-semibold text-white">{about.name}</div>
+                <div className="mt-1" style={{ color: '#6df2f2' }}>{about.role}</div>
               </figcaption>
             </figure>
           </div>
